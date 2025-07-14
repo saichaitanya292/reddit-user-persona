@@ -2,8 +2,8 @@ import praw
 
 def fetch_user_data(username):
     reddit = praw.Reddit(
-        client_id="PPEaSItISFbMMJvD07lpyQ",
-        client_secret="fv0kic6UCgF6pBtrnCSJ02wLugp_1Q",
+        client_id="your_client_id",
+        client_secret="your_actual_client_secret",
         user_agent="persona-generator-script"
     )
     user = reddit.redditor(username)
